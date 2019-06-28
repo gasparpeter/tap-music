@@ -4,12 +4,8 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Montseratt", sans-serif;
-}
-
 .app {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,40 +13,39 @@ body {
 }
 
 header h1 {
-    margin: 50px 0 50px 0;
+    margin: 50px 0px 30px 0px;
     text-align: center;
     font-size: 40px;
 }
-
 header p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .pads {
     background: lightblue;
     width: 100%;
+    display: flex;
 }
-
+.pads > div {
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
 .pad1 {
-    background: #60d394;
+    background: rgb(85, 172, 89);
 }
-
 .pad2 {
-    background: #d36060;
+    background: rgb(78, 134, 180);
 }
-
 .pad3 {
-    background: #c060d3;
+    background: rgb(116, 80, 182);
 }
-
 .pad4 {
-    background: #d3d160;
+    background: rgb(184, 75, 75);
 }
-
 .pad5 {
-    background: #6860d3;
+    background: rgb(197, 199, 82);
 }
-
 .pad6 {
-    background: #60b2d3;
+    background: rgb(211, 122, 81);
 }
